@@ -6,6 +6,7 @@ import './newfilm.css'
 function Actionfilm() {
 
     const  [action,setAction] = useState([])
+    const [loading, setLoading] = useState(true)
 
     useEffect(() => {
 
@@ -16,11 +17,16 @@ function Actionfilm() {
             } )
             .then(film => {
                 setAction(film.result)
+                setLoading(false)
             } )
             .catch(err => {
                 console.log(err);
             })
     } ) 
+
+    if(loading) {
+        return <h1>.......</h1>
+    }
 
     return (
 
