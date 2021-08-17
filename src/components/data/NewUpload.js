@@ -2,7 +2,6 @@
 import axios from 'axios'
 import React,{useState,useEffect} from 'react'
 import './newfilm.css'
-import {Link} from 'react-router-dom'
 import { FcStart } from "react-icons/fc";
 
 function NewUpload() {
