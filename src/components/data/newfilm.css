@@ -101,6 +101,11 @@
     .title{
         font-size: 10px;
     }
+    .load{
+        text-align: center;
+        color: rgb(58, 58, 58);
+        font-family: arial;
+    }
     .cardaction{
         border: 1px solid rgb(226, 226, 226);
         padding: 10px;

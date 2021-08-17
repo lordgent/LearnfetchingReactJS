@@ -46,7 +46,8 @@ function NewUpload() {
 
                       <img src={rows.thumbnail} alt="thumbnailimg" height="130" />
                       <p className="title"> {rows.title} </p>
-                      <Link to={rows.trailer} className="icon"> <FcStart/> Watch Trailer</Link>
+                   
+                      <a href={rows.trailer} className="icon"><FcStart/> Watch Trailer</a>
                 </div>
                 
             ) }
