@@ -1,0 +1,24 @@
+.navbar{
+    background-color: rgb(255, 46, 9);
+    display: flex;
+    padding: 10px;
+
+}
+
+.navlogo{
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Anton', sans-serif;
+    color: white;
+    letter-spacing: 3px;
+    text-shadow: 2px rgb(255, 120, 120);
+}
+.navbar-link{
+    margin-left: 80px;
+}
+.nvlink{
+    text-decoration: none;
+    color: white;
+    font-family: 'Mukta', sans-serif;
+    margin-left: 30px;
+}
